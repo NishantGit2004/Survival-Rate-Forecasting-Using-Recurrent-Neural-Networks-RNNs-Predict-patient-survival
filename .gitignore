@@ -1,0 +1,121 @@
+# ===========================================
+# Survival-RNN Project (.gitignore)
+# Author: Nishant Chopde
+# Project: Survival Rate Forecasting Using RNNs
+# ===========================================
+
+# ---------- Python Artifacts ----------
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.pkl
+
+# ---------- Virtual Environment ----------
+venv/
+.venv/
+env/
+ENV/
+Scripts/
+bin/
+Include/
+Lib/
+pyvenv.cfg
+
+# ---------- Data Files ----------
+# Raw and processed datasets (MIMIC-III demo)
+data/raw/
+data/*.csv
+data/*.npz
+data/*.parquet
+*.zip
+*.gz
+
+# ---------- Model Artifacts ----------
+saved_models/
+checkpoints/
+*.h5
+*.hdf5
+*.ckpt
+*.pt
+*.pth
+*.tflite
+
+# ---------- Experiment Outputs ----------
+logs/
+training_logs/
+results/
+runs/
+figures/
+plots/
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.svg
+
+# ---------- Temporary / Cache ----------
+*.tmp
+*.bak
+*.swp
+*~
+.cache/
+__pypackages__/
+.ipynb_checkpoints/
+*.log
+
+# ---------- IDE / Editor Files ----------
+# VS Code
+.vscode/
+# PyCharm / IntelliJ
+.idea/
+# Sublime / Others
+*.sublime-project
+*.sublime-workspace
+
+# ---------- OS Files ----------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---------- Secrets / Configs ----------
+.env
+.env.*
+credentials.json
+config.json
+aws_credentials/
+ssh_keys/
+*.pem
+
+# ---------- Build / Distribution ----------
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+develop-eggs/
+downloads/
+sdist/
+wheels/
+
+# ---------- Jupyter Notebooks ----------
+notebooks/.ipynb_checkpoints/
+*.nbconvert.ipynb
+*.out.ipynb
+
+# ---------- Reports / Documents ----------
+*.docx
+*.pdf
+*.pptx
+*.ppt
+*.tex
+report/
+__docs_temp__/
+
+# ---------- Misc ----------
+# Temporary files or backups
+*.orig
+*.rej
+*.bak
+*.tmp
